@@ -50,3 +50,11 @@ Then manually adding the module definition at the top and native-inputs:
     ...
 ```
 
+
+## Usage
+
+```bash
+$ guix shell -L . python python-pseudoflow
+$ python3
+import pseudoflow
+```
