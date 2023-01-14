@@ -53,8 +53,18 @@ Then manually adding the module definition at the top and native-inputs:
 
 ## Usage
 
+Reads from python-pseudoflow.scm:
+
 ```bash
 $ guix shell -L . python python-pseudoflow
+$ python3
+import pseudoflow
+```
+
+Using manifest.scm:
+
+```bash
+$ guix shell -m manifest.scm
 $ python3
 import pseudoflow
 ```
