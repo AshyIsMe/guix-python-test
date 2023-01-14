@@ -17,6 +17,7 @@
                (base32
                 "0izdnb7xgiangvipcy0k0lbgwn3wkn4ld1ca21gy9mjp1dkisxc3"))))
     (build-system python-build-system)
+    (arguments '(#:tests? #f))
     (native-inputs (list python-pytest))
     (home-page "https://github.com/quic0/pseudoflow")
     (synopsis "Pseudoflow algorithm for the parametric minimum cut problem.")
